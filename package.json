@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "This is members REST API.",
 	"main": "server.js",
+	"engines": {
+		"node": "14.x"
+	},
 	"scripts": {
 		"start:dev": "cross-env NODE_ENV=development nodemon src/server.js",
 		"start:prod": "cross-env NODE_ENV=production node src/server.js"
